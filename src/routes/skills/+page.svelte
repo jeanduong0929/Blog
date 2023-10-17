@@ -1,6 +1,7 @@
 <script>
   import Loader from "$lib/components/Loader.svelte";
   import AngularIcon from "$lib/svgs/AngularIcon.svelte";
+  import AwsIcon from "$lib/svgs/AwsIcon.svelte";
   import DatabaseIcon from "$lib/svgs/DatabaseIcon.svelte";
   import JavaIcon from "$lib/svgs/JavaIcon.svelte";
   import NextIcon from "$lib/svgs/NextIcon.svelte";
@@ -115,7 +116,7 @@
         class="flex flex-col items-start p-5 gap-5"
         in:fly={{ y: 250, duration: 1100 }}
       >
-        <DatabaseIcon class="h-14 w-14" />
+        <AwsIcon class="h-14 w-14" />
         <h1 class="font-bold text-xl">AWS</h1>
         <p>
           A leading cloud service provider that offers a vast array of
