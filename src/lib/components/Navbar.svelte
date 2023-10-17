@@ -75,11 +75,11 @@
     <ul class="flex items-center gap-5">
       <button type="button" class="cursor-pointer" on:click={darkModeToggle}>
         {#if $darkMode}
-          <div class="fade-in p-2 bg-yellow-500 rounded-md">
+          <div class="p-2 bg-yellow-500 rounded-md fade-in">
             <SunIcon size={24} />
           </div>
         {:else}
-          <div class="fade-in p-2 bg-purple-500 rounded-md">
+          <div class="p-2 bg-purple-500 rounded-md fade-in">
             <MoonIcon size={24} />
           </div>
         {/if}
@@ -87,3 +87,20 @@
     </ul>
   </nav>
 {/if}
+
+<style>
+  .fade-in {
+    animation: fadeIn 0.5s ease-in-out;
+  }
+
+  @keyframes fadeIn {
+    0% {
+      opacity: 0;
+      transform: translateY(-20px);
+    }
+    100% {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+</style>
