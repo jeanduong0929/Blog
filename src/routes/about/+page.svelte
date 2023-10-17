@@ -36,7 +36,7 @@
         class="flex flex-col items-start gap-5 w-1/2"
         in:fly={{ y: 150, duration: 700 }}
       >
-        <h1 class="font-bold text-5xl">Education</h1>
+        <h1 class="font-bold text-5xl">Education.</h1>
         <p>
           Education has always been a pivotal part of my journey. I'm proud to
           say that I hold a bachelor's degree in Computer Science from the
@@ -50,7 +50,7 @@
         class="flex flex-col items-start gap-5 w-1/2"
         in:fly={{ y: 200, duration: 900 }}
       >
-        <h1 class="font-bold text-5xl">Philosophy</h1>
+        <h1 class="font-bold text-5xl">Philosophy.</h1>
         <p>
           One of my core beliefs is that "smarts will get you far, but hard work
           and discipline will get you farther." This philosophy has been the
@@ -67,7 +67,7 @@
         class="flex flex-col items-start gap-5 w-1/2"
         in:fly={{ y: 250, duration: 1100 }}
       >
-        <h1 class="font-bold text-5xl">Hobbies</h1>
+        <h1 class="font-bold text-5xl">Hobbies.</h1>
         <p>
           Outside of the digital realm, I have a passion for powerlifting. The
           discipline and determination I exhibit in this sport are the very

@@ -26,7 +26,7 @@
     </div>
 
     <div in:fly={{ y: 150, duration: 700 }}>
-      <h1 class="font-bold text-4xl mt-20">Description</h1>
+      <h1 class="font-bold text-4xl mt-20">Description.</h1>
       <p class="mt-2">
         As a senior trainer at Revature, I've had the privilege of guiding
         non-technical associates on their journey into the tech world. My
