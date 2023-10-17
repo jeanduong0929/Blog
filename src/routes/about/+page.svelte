@@ -12,7 +12,7 @@
 
 {#if showContent}
   <div
-    class="flex flex-col justify-center h-[70vh] max-w-screen-lg w-11/12 mx-auto gap-10"
+    class="flex flex-col justify-center max-w-screen-lg w-11/12 mx-auto gap-10 my-24"
   >
     <div class="flex justify-between gap-10 w-full">
       <div

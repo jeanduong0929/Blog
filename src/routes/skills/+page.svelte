@@ -21,7 +21,7 @@
 
 {#if showContent}
   <div
-    class="flex flex-col items-center justify-center max-w-screen-lg w-11/12 mx-auto h-[80vh] gap-14"
+    class="flex flex-col items-center justify-center max-w-screen-lg w-11/12 mx-auto gap-14 my-24"
   >
     <h1 class="font-bold text-5xl" in:fly={{ y: 100, duration: 500 }}>
       Skills.
